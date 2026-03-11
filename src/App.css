@@ -1,0 +1,27 @@
+/* App specific styles */
+.app-container {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Canvas container for 3D Background */
+.canvas-container {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none; /* Let clicks pass through to content */
+}
+
+/* Content wrapper above 3D background */
+.content-wrapper {
+  position: relative;
+  z-index: 10;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+}
