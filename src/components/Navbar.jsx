@@ -28,8 +28,11 @@ export default function Navbar() {
     >
       <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', fontWeight: 800, fontSize: '1.5rem' }}>
-          <img src="/logo.jpeg" alt="Balaji Printers Logo" style={{ height: '40px', width: 'auto', borderRadius: '5px' }} />
-          <span className="text-gradient">Balaji Printers</span>
+          <img src="/logo1.png" alt="Balaji Printers Logo" style={{ height: '40px', width: 'auto', borderRadius: '5px' }} />
+          <span className="text-gradient" style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem' }}>
+            <span style={{ fontSize: '1.2em' }}>BALAJI</span>
+            <span style={{ fontSize: '0.7em' }}>DIGITAL PRINTERS</span>
+          </span>
         </div>
 
         <nav style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>

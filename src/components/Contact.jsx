@@ -42,7 +42,10 @@ export default function Contact() {
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontWeight: 800, fontSize: '1.5rem', marginBottom: '1rem' }}>
               <Printer size={32} color="#00f2fe" />
-              <span className="text-gradient">Balaji Printers</span>
+              <span className="text-gradient" style={{ display: 'flex', alignItems: 'baseline', gap: '0.4rem' }}>
+                <span style={{ fontSize: '1.2em' }}>BALAJI</span>
+                <span style={{ fontSize: '0.7em', whiteSpace: 'nowrap' }}>DIGITAL PRINTERS</span>
+              </span>
             </div>
             <p style={{ color: 'var(--text-muted)', marginBottom: '0.5rem' }}>& PJR Book Binding Works</p>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem', lineHeight: '1.6' }}>
@@ -114,7 +117,7 @@ export default function Contact() {
         </div>
         
         <div style={{ textAlign: 'center', paddingTop: '2rem', borderTop: '1px solid rgba(255,255,255,0.05)', color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-          &copy; {new Date().getFullYear()} Balaji Printers & PJR Book Binding Works. All rights reserved.
+          &copy; {new Date().getFullYear()} BALAJI DIGITAL PRINTERS & PJR Book Binding Works. All rights reserved.
         </div>
       </div>
     </footer>
